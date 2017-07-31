@@ -6,3 +6,22 @@
 .red-quote{
   color: red;
 }
+
+body{
+  background-color: lightblue;
+  color: yellow;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+ul{
+  list-style-type: none; 
+}
+
+.title{
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+}

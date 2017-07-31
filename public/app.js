@@ -31,6 +31,16 @@ var addCat = function(cat){
   cats.appendChild(catUl);
 }
 
+var addTitle = function(){
+  var title = document.createElement("h1");
+  title.innerText = "Cats"
+  title.classList.add("title")
+  var cats = document.querySelector("#cats");
+  cats.appendChild(title);
+
+}
+
 window.onload = function(){
+  addTitle();
   catArray.forEach(addCat);
 };
